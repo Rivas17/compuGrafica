@@ -1,0 +1,10 @@
+# Configuración automática para archivos de texto
+* text=auto
+
+# Asegurar que archivos específicos siempre usen LF (formato Linux/Unix)
+*.sh text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+
+# Asegurar que archivos de Windows (si los hay) mantengan su formato
+*.bat text eol=crlf
